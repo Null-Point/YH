@@ -1,0 +1,13 @@
+module.exports={
+  "data":[
+    {
+      "title":"潮流服饰",
+      "srcone":"https://img10.static.yhbimg.com/yhb-img01/2016/10/21/11/01a0799dcaaa4b11c87dd7ce51ec17adf3.jpg?imageView2/2/w/640/h/403/q/90",
+      "srctwo":"https://img11.static.yhbimg.com/yhb-img01/2016/10/26/10/019a11fafa335c57a28d425aeb57290632.jpg?imageView2/2/w/258/h/383/q/90",
+      "srcthree":"https://img11.static.yhbimg.com/yhb-img01/2016/10/26/10/017cb3ab94feabc1bb18ddc4a1432c7cd0.jpg?imageView2/2/w/191/h/191/q/90",
+      "srcfour":"https://img11.static.yhbimg.com/yhb-img01/2016/10/26/10/015a34ce41bfcd90fee9892ae670b02e44.jpg?imageView2/2/w/191/h/191/q/90",
+      "srcfive":"https://img10.static.yhbimg.com/yhb-img01/2016/10/26/10/018927c10cf674eb48eb74d3cb45f43df6.jpg?imageView2/2/w/191/h/191/q/90",
+      "srcsix":"https://img11.static.yhbimg.com/yhb-img01/2016/10/26/11/018aad8eb4a4d070a951cfd115f8c682c2.jpg?imageView2/2/w/191/h/191/q/90"
+    }
+  ]
+}

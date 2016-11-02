@@ -1,0 +1,24 @@
+module.exports={
+  "data":[
+    {
+      "src":"https://img10.static.yhbimg.com/yhb-img01/2016/10/19/10/019259d1a19f16e7b802e0116440852040.png?imageView2/2/w/98/h/98/q/90",
+      "title":"新品到着"
+    },
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/21/14/01fa3fcc24e29e76b4c58d6aa80b08ab42.png?imageView2/2/w/98/h/98/q/90",
+      "title":"潮流优选"
+    },
+    {
+      "src":"https://img10.static.yhbimg.com/yhb-img01/2016/10/19/17/01df08ae9380a61f4240bb454ae29c6d6d.png?imageView2/2/w/98/h/98/q/90",
+      "title":"冬著严选"
+    },
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/19/10/01c422277f4eb78832d247f033c308f8f7.png?imageView2/2/w/98/h/98/q/90",
+      "title":"明星原创"
+    },
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/19/10/01e3e62ab697f680b2bbdbfe0380989206.png?imageView2/2/w/98/h/98/q/90",
+      "title":"全部分类"
+    }
+  ]
+}

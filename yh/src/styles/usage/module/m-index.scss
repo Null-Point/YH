@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'iconfont';
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    src:url('/images/iconfont/iconfont-menu.woff') format('woff'),
+    /* chrome、firefox */
+     url('/images/iconfont/iconfont-menu.ttf') format('truetype');
+}
+// @font-face {
+//     font-family: 'iconfont';
+//     /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+//     src:url('/images/iconfont/iconfont-menu.woff') format('woff'),
+//     /* chrome、firefox */
+//      url('/images/iconfont/iconfont-menu.ttf') format('truetype');
+// }
+
+.iconfont {
+  font-family: iconfont;
+}
+body>div{
+  @include flexbox;
+  @include flex-direction(column);
+  height: 100%;
+  // @extend %footer;
+}
+.swiper-container{
+  height: 155px;
+  width: 100%;
+}
+.swiper-container img{
+  height: 100%;
+  width: 100%;
+}
+.swiper-pagination-bullet{
+  background: #fff;
+}
+.contain{
+  @include flex(1);
+  width: 100%;
+  overflow: hidden;
+ }
+.nav{
+  @include flexbox;
+  @include align-items(center);
+  @include justify-content(space-between);
+  height: 45px;
+  background: #323232;
+  color: #fff;
+  span:nth-child(2){
+  background: url(https://cdn.yoho.cn/m-yohobuy-node/assets/img/channel/yohologo02.png?v157e691d1f1) no-repeat 50%;
+  width: 5.2rem;
+  height: 2.175rem;
+  background-size: 100%;
+  }
+  span:nth-child(1){
+  margin: 0 5px;
+ }
+ span:nth-child(3){
+ margin: 0 5px;
+}
+}
+footer {
+  height: 44px;
+  background: #fff;
+  ul {
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    border-top: solid 0.5px #d9d9d9;
+    li {
+      @include flex(1);
+      @include flexbox();
+      @include flex-direction(column);
+      @include align-items(center);
+      @include justify-content(center);
+      &.active b,
+      &.active i {
+        color: $baseColor;
+      }
+      b, i {
+        font-weight: normal;
+        font-size: 12px;
+        color: #999;
+      }
+      i {
+        font-size: 24px;
+        line-height: 24px;
+      }
+      b {
+        line-height: 12px;
+        font-family: helvetica,Arial,黑体;
+      }
+      // &:nth-child(3) {
+      //   i {
+      //     position: relative;
+      //     z-index: 99;
+      //     background: #fff;
+      //     width: 54px;
+      //     border-radius: 50%;
+      //     top: -6px;
+      //     text-align: center;
+      //     line-height: 54px;
+      //     font-size: 32px;
+      //     &::after {
+      //       content: '';
+      //       position: absolute;
+      //       width: 54px;
+      //       height: 54px;
+      //       border: solid 0.5px #999;
+      //       border-radius: 50%;
+      //       left: 0;
+      //       top: 0;
+      //       z-index: 1;
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+#classify ul{
+  @include flexbox;
+  @include justify-content(space-around);
+  padding: 8px;
+  background: #fff;
+}
+#classify ul li{
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+   padding: 0 5px;
+}
+#classify ul li b{
+    font-family: helvetica,Arial,黑体;
+    color: #444;
+}
+#classify ul li img{
+  width: 100%;
+}
+// logoone的设置
+.logo0ne img{
+  margin-top: 20px;
+  width: 100%;
+}
+.classword{
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+}
+.classword h2{
+  margin-top: 15px;
+  font-family: helvetica,Arial,黑体;
+  background: #fff;
+  width: 90%;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #999;
+  border-radius: 3px;
+}
+.listmap ul{
+  @include flexbox;
+  @include flex-wrap(wrap);
+}
+.listmap ul li{
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+  border: .25px solid #d6d6d6;
+}
+.listmap ul li img{
+  width: 100%;
+}
+.bannertwo{
+  height: 100px;
+}
+.bannertwo .swiper-container{
+  height: 100%;
+}
+.bannertwo img{
+  margin-top: 12px;
+  height: 100%;
+  width: 100%;
+  }
+  .waimap ul li{
+   font-size: 12px;
+   color: #999;
+  background: #fff;
+    }
+    .waimap ul li img{
+      padding: 0 8px;
+    }
+    .waimap ul li:last-child{
+      @include flex(1);
+    }
+    .foot {
+        text-align: center;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 12px;
+    }
+
+    .foot img {
+        display: inline-block;
+        width: 1rem;
+        /*transform: rotate(0deg);*/
+        /*-webkit-transform: rotate(0deg);*/
+        transition: transform 150ms;
+        -webkit-transition: transform 150ms;
+    }
+    .down {
+        transform: rotate(180deg) !important;
+        -webkit-transform: rotate(180deg) !important;
+    }
+    // 加载数据的设置
+    .more-listimg{
+      @include flexbox;
+    }
+    .more-data{
+      margin-top: 12px;
+    }
+    .more-data h2{
+      height: 2.5rem;
+      line-height: 2.5rem;
+      background: #fff;
+      text-align: center;
+      font-family: helvetica,Arial,黑体;
+      color: #999;
+      font-size: 15px;
+    }
+    .more-data .more-img img{
+       width: 100%;
+       height: 10rem;
+      }
+      .more-listimg{
+        height: 9.25rem;
+      }
+      .more-listimg-left{
+        width: 40%;
+        border: .5px solid #d6d6d6;
+      }
+     .more-listimg-left img{
+       width: 100%;
+     }
+     .more-listimg-right{
+       width:60%;
+     }
+     .more-listimg-right ul{
+       width: 100%;
+       @include flexbox;
+       @include flex-wrap(wrap);
+     }
+     .more-listimg-right ul li{
+       width: 50%;
+       border: .5px solid #d6d6d6;
+     }
+     .more-listimg-right ul li img{
+         width: 100%;
+       }

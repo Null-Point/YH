@@ -1,0 +1,19 @@
+<template>
+ <div class="search-s1">
+   <ul>
+     <li>全部服饰</li>
+     <li>太阳镜/眼镜</li>
+     <li>帽子</li>
+     <li>首饰</li>
+     <li>袜子</li>
+     <li>配饰</li>
+     <li>皮带</li>
+     <li>手表</li>
+     <li>围巾</li>
+     <li>手帕</li>
+     <li>丝巾</li>
+     <li>手套</li>
+     <li>披肩</li>
+   </ul>
+ </div>
+</template>

@@ -1,0 +1,11 @@
+.m-guide{
+  height: 100%;
+  width: 100%;
+  .swiper-container{
+    height: 100%;
+  }
+}
+.m-guide .swiper-container .swiper-wrapper .swiper-slide img{
+  height: 100%;
+  // width: 100%;
+}

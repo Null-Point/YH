@@ -1,0 +1,24 @@
+  module.exports={
+  "data":[
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/19/10/01148dd34d3802b207ed8564f9655c1431.png?imageView2/2/w/98/h/98/q/90",
+      "title":"人气搭配"
+    },
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/19/10/01277419e72804f6149f809765351a0ea6.png?imageView2/2/w/98/h/98/q/90",
+      "title":"领券中心"
+    },
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/19/10/013865f95f514e951acb6d29674d4670d4.png?imageView2/2/w/98/h/98/q/90",
+      "title":"潮品推荐"
+    },
+    {
+      "src":"https://img11.static.yhbimg.com/yhb-img01/2016/10/19/10/01b46444ea2aa0d4c2478943903f2858e5.png?imageView2/2/w/98/h/98/q/90",
+      "title":"潮流话题"
+    },
+    {
+      "src":"https://img10.static.yhbimg.com/yhb-img01/2016/10/19/10/01b1ee21de59b293405b43e6760a547534.png?imageView2/2/w/98/h/98/q/90",
+      "title":"折扣专区"
+    }
+  ]
+}
